@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('CEAFA-3D.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    background-color: #214b94;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    opacity: 95%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.left-panel {
+    background-color: #4c8efc;
+    padding: 40px;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 1400px;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+.video-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: black 1.5px solid;
+}
+
+.channels {
+    display: flex;
+    justify-content: space-evenly; /* Makes the buttons side by side */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Updated Channel Button Styles */
+.channel-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(135deg, #80ffc1, #5f9ca3);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.channel-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #1565c0, #0d47a1);
+}
+
+.channel-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.full-screen-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border: black 1.5px solid;
+}
+
+.full-screen-btn:hover {
+    background-color: #e6e6e6;
+}
